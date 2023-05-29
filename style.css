@@ -1,4 +1,4 @@
-.container{
+/*.container{
     display: flex;
     flex-wrap: wrap;
     width: 940px;
@@ -47,4 +47,33 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 150px;
+  }
+  .overlay{
+    
+  outline: 1px solid black;
+
+  max-width: 1200px;
+  height: 400px;
+
+  margin-left: auto;
+  margin-right: auto;
+  }
+    */
+  .button{
+    display: inline-flex;
+    padding: 10px 20px;
+    background-color: hotpink;
+    border: dashed 6px palevioletred ;
+
+  }
+
+  .button::before{
+    content: '';
+    margin-right: 10px;
+    align-items: center;
+   
+    width: 25px;
+    height: 27px;
+    background-color: coral;
+
   }
